@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "https://app-for-job.onrender.com/api",
+  baseURL: "http://localhost:5000/api",
 });
 
 // Interceptor แปะ Token ไปใน Request Header
